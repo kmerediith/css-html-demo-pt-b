@@ -7,10 +7,13 @@ body{
     text-align: center;
     height: 50px;
 }
+/* Nav bar */
 .nav{
     border: 1px black solid;
-    text-align: center;
-    height: 20px 
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    height: 30px 
 }
 .hero{
     border: 1px black solid;
@@ -26,4 +29,13 @@ body{
     border: 1px black solid;
     text-align: center;
     height: 80px; 
+}
+/* Nav bar button group */
+.nav-buttons-group{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
 }
