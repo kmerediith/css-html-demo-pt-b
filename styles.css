@@ -36,6 +36,9 @@ li{
     display: inline-block;
     color: white;
 }
+li:hover{
+    font-size: large;
+}
 .footer{
     background-color: lightgray;
 }
